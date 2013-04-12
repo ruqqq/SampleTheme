@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SampleTheme</string>
+    <string name="theme_name">SampleTheme</string>
+    <string name="style_appearance_name">SampleTheme</string>
+    <string name="author">Faruq Rasid</string>
+    <string name="copyright">Faruq Rasid</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The package name can be anything -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:pluto="http://www.w3.org/2001/pluto.html"
+          package="sg.ruqqq.theme.SampleTheme"
+          android:hasCode="false">
+    <uses-sdk android:minSdkVersion="16"/>
+
+    <!-- This is the IMPORTANT line for XThemeEngine to detect your theme. -->
+    <uses-permission android:name="sg.ruqqq.XThemeEngine.permission.SYSTEM_THEME" />
+
+    <!-- The theme name will be derived from app name -->
+    <!-- Other than this, the other important things reside in res/xml/redirections.xml, just like a Theme Chooser theme -->
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    </application>
+
+    <!-- These aren't read by XThemeEngine. These are here for compatibility sake with CM10 Theme Engine -->
+    <theme
+            pluto:themeId="SampleTheme"
+            pluto:styleId="@style/SampleTheme"
+            pluto:name="@string/theme_name"
+            pluto:preview="@drawable/preview"
+            pluto:author="@string/author"
+            pluto:copyright="@string/copyright"
+            pluto:styleName="@string/style_appearance_name">
+
+        <meta-data android:name="com.tmobile.theme.redirections"
+                   android:resource="@xml/redirections" />
+
+    </theme>
+</manifest>
