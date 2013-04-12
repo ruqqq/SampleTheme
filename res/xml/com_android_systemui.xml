@@ -2,5 +2,5 @@
 
 <resource-redirections>
     <item name="drawable/stat_sys_battery">@drawable/com_android_systemui_stat_sys_battery</item>
-    <item name="drawable/stat_sys_battery_charge">@drawable/com_android_systemui_stat_sys_battery</item>
+    <item name="drawable/stat_sys_battery_charge">@drawable/com_android_systemui_stat_sys_battery_charge</item>
 </resource-redirections>
